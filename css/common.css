@@ -1,0 +1,622 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?h11oho');
+    src: url('../fonts/icomoon.eot?h11oho#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?h11oho') format('truetype'), url('../fonts/icomoon.woff?h11oho') format('woff'), url('../fonts/icomoon.svg?h11oho#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.com {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    height: 78px;
+}
+
+header .logo {
+    float: left;
+    margin-top: 18px;
+    width: 153px;
+    height: 37px;
+}
+
+.sou {
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 300px;
+    height: 36px;
+    border: 1px solid;
+}
+
+.sou input {
+    width: 249px;
+    height: 34px;
+    border: none;
+    outline: none;
+    text-indent: 2em;
+}
+
+.sou span {
+    font-family: 'icomoon';
+    float: right;
+    width: 49px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+}
+
+header ul {
+    float: left;
+    margin-top: 28px;
+    margin-left: 30px;
+    padding-right: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.btn_DL {
+    margin-top: 20px;
+    float: right;
+    width: 50px;
+    height: 34px;
+    background-color: rgb(53, 161, 233);
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.nav_box {
+    position: relative;
+    height: 55px;
+}
+
+.nav_box .one li,
+.nav_box .two li {
+    float: left;
+}
+
+.nav_box .one {
+    float: left;
+    width: 387px;
+}
+
+.nav_box .one li a,
+.nav_box .two li a {
+    font-family: 'icomoon';
+    display: inline-block;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 16px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav_box .one li.bgc {
+    background-color: rgb(53, 161, 233);
+}
+
+#sel {
+    position: relative;
+}
+
+.select_one {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 999;
+}
+
+.select_one li a {
+    display: block;
+    width: 80px;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    color: #999;
+}
+
+.select_one li a:hover {
+    background-color: rgba(255, 255, 255, .1);
+    color: #fff;
+}
+
+.nav_box .two li a {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.nav_box .two li:hover a {
+    color: rgb(53, 161, 233);
+}
+
+.nav_box .two li a span {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.bg {
+    position: relative;
+    height: 455px;
+}
+
+.bg a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bg .swiper span {
+    background-color: aqua !important;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* 切换按钮 */
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+    color: #ccc;
+    font-weight: 600;
+}
+
+
+/* 轮播图小点位置 */
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 60px;
+}
+
+
+/* 轮播图小点样式 */
+
+.bg_nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(143, 140, 140);
+    opacity: 0.7;
+    z-index: 999;
+}
+
+.bg_download {
+    margin: 0 auto;
+    width: 800px;
+    height: 60px;
+}
+
+.bg_download a {
+    position: relative;
+    font-family: 'icomoon';
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 30px;
+    color: #fff;
+}
+
+.bg_download a:hover {
+    color: rgb(241, 202, 128);
+}
+
+.bg_download a span {
+    vertical-align: top;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.bg_download a:nth-child(2)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: -35px;
+    width: 2px;
+    height: 20px;
+    background-color: #666;
+}
+
+.bg_download a:nth-child(2)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 23px;
+    right: -35px;
+    width: 2px;
+    height: 20px;
+    background-color: #666;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner>a {
+    display: none;
+    font-family: 'icomoon';
+    position: absolute;
+    bottom: 0;
+    right: -80px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ccc;
+    font-size: 30px;
+}
+
+.banner .open {
+    position: absolute;
+    top: 40px;
+    right: -210px;
+    width: 160px;
+    height: 157px;
+    text-align: center;
+}
+
+.banner .open img {
+    width: 66px;
+    height: 66px;
+}
+
+.banner .open .open_o p {
+    color: #ccc;
+}
+
+.banner .open .open_o {
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.open_o a {
+    display: inline-block;
+    width: 108px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 5px;
+    background-color: rgb(53, 161, 233);
+    color: #fff;
+    margin: 10px 15px;
+}
+
+.banner_left {
+    float: left;
+}
+
+.left_nav,
+.right_nav {
+    height: 30px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+.left_nav h3,
+.right_nav h3 {
+    float: left;
+    font-size: 30px;
+}
+
+.left_nav a,
+.right_nav a {
+    display: block;
+    float: right;
+}
+
+.banner_right {
+    float: right;
+}
+
+.main_left {
+    display: flex;
+    width: 650px;
+    height: 325px;
+    overflow: hidden;
+}
+
+.main_left a:hover {
+    color: #666;
+}
+
+.main_left a:hover .Z_one,
+.main_right a:hover .Z_one {
+    display: block;
+}
+
+.Z_one {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.Z_one span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.main_left>div>a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main_left>div:first-child {
+    flex: 2;
+}
+
+.main_left>div:nth-child(n+2) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.top {
+    margin-top: 5px;
+}
+
+.top_style {
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 10px;
+    color: #fff;
+    background: -webkit-linear-gradient(left bottom, rgba(255, 255, 255, .5), rgb(129, 125, 125, .7));
+}
+
+.main_left p span {
+    padding-right: 50px;
+}
+
+.p_text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    background-color: #ccc;
+    opacity: .8;
+    padding-left: 5px;
+}
+
+.main_left .p_text p {
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.main_right {
+    width: 320px;
+    height: 325px;
+}
+
+.main_right>a {
+    font-family: 'icomoon';
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 98px;
+    background-color: rgba(204, 204, 204, 0.2);
+}
+
+.main_right>a>div {
+    position: absolute;
+    width: 98px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.main_right a:hover {
+    color: #666;
+}
+
+.main_right>a:nth-child(2) {
+    margin: 16px 0;
+}
+
+.main_right>a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    font-size: 40px;
+    color: #ccc;
+}
+
+.main_right dl {
+    margin-left: 108px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.main_right dl dt {
+    color: black;
+    font-weight: 600;
+}
+
+.GG {
+    display: block;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.tuijian .left_nav,
+.tuijian .right_nav {
+    margin-bottom: 20px;
+}
+
+.tuijian .left_nav h3 {
+    padding-right: 30px;
+}
+
+.tuijian .left_nav ul li {
+    float: left;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.tuijian .left_nav ul li:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.tuijian .left_nav button {
+    font-family: 'icomoon';
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #999;
+}
+
+.tuijian .left_nav button span {
+    font-size: 20px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.tuijian .main_left {
+    border-top: 1px solid #ccc;
+    overflow: visible;
+}
+
+.tuijian .main_left a:hover {
+    color: rgb(53, 161, 233);
+}
+
+.yincang {
+    display: none;
+}
+
+.main_left ul li a {
+    position: relative;
+    display: block;
+    width: 650px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.main_left a span {
+    position: absolute;
+    right: 10px;
+}
+
+.tuijian .main_right {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.tuijian .main_right .MV_top {
+    position: relative;
+    width: 100%;
+    height: 175px;
+}
+
+.MV_top:hover .Z_one {
+    display: block;
+}
+
+.tuijian .main_right .MV_bottom {
+    display: flex;
+    flex: 1;
+    padding-top: 10px;
+}
+
+.MV_A,
+.MV_B {
+    position: relative;
+    flex: 1;
+}
+
+.MV_B {
+    margin-left: 10px;
+}
+
+.MV_A img,
+.MV_B img {
+    height: 84px;
+}
+
+.MV_text {
+    position: absolute;
+    bottom: 0;
+}
